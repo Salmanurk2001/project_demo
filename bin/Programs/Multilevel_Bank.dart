@@ -2,10 +2,10 @@ class Bank{
   String bname = "SBI";
 }
 class Branch extends Bank{
-  String brname = "chennai";
+  String brname = "Kollam";
 }
 class Location extends Branch{
-  String lname = "Tamil nadu";
+  String lname = "Pallimk";
 }
 class Employee extends Location{
   String ename= "Manu";
